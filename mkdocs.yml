@@ -67,6 +67,15 @@ plugins:
         "uninstall.md": "cli/uninstall.md"
         "sync-v2.md": "cli/sync-v2.md"
         "index.md": "cli/index.md"
+  - llmstxt:
+      base_url: https://docs.atuin.sh
+      full_output: llms-full.txt
+      markdown_description: |
+        Atuin replaces your shell's built-in history with a SQLite database, adding context
+        (cwd, exit code, duration, hostname) and optionally syncing across machines with
+        end-to-end encryption. These docs cover the CLI tool - installation, configuration,
+        usage, self-hosting, and AI features.
+      sections: {}
 
 markdown_extensions:
   - pymdownx.highlight:
