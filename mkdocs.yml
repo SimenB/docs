@@ -67,6 +67,7 @@ plugins:
         "uninstall.md": "cli/uninstall.md"
         "sync-v2.md": "cli/sync-v2.md"
         "index.md": "cli/index.md"
+        "cli/reference/hex.md": "cli/reference/pty-proxy.md"
   - llmstxt:
       base_url: https://docs.atuin.sh
       full_output: llms-full.txt
